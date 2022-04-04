@@ -172,11 +172,6 @@
               <goal>build-info</goal>
             </goals>
             <configuration>
-              <executable>true</executable>
-              <jvmArguments>
-                  -Xms256m
-                  -Xmx1g
-              </jvmArguments>
               <additionalProperties>
                 <encoding.source>${project.build.sourceEncoding}</encoding.source>
                 <encoding.reporting>${project.reporting.outputEncoding}</encoding.reporting>
